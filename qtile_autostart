@@ -33,6 +33,9 @@ feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
 #start sxhkd to replace Qtile native key-bindings
 #run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 
+#remap caps lock to escape
+setxkbmap -option caps:escape &
+
 #starting utility applications at boot time
 run sxhkd &
 run variety &
