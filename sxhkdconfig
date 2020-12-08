@@ -1,0 +1,53 @@
+##################################################################################################
+# Config file for sxhkd
+# Simple X Hotkey Daemon
+# by MxFxM
+##################################################################################################
+
+#
+# Arco Linux Control
+##################################################################################################
+
+# Logout
+super + x
+	arcolinux-logout
+
+#
+# Terminal / CLI Software 
+##################################################################################################
+
+# Open a terminal (alacritty)
+super + Return
+	alacritty
+
+# Open rofi (better than dmenu lulz)
+super + p
+	rofi -show run
+
+# Appfinder (finds some apps that rofi does not find due to weird characters)
+super + shift + p
+	xfce4-appfinder
+
+# Open ranger command line file manager
+super + shift + Return
+	alacritty -e ranger
+
+# Open htop command line taskmanager
+super + shift + h
+	alacritty -e htop
+
+#
+# Sound and Sound Control
+##################################################################################################
+
+# Open the sound control
+super + v
+	pavucontrol
+
+#
+# Applications
+##################################################################################################
+
+# Firefox browser
+super + b
+	firefox
