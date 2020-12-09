@@ -28,7 +28,7 @@ fi
 bind "set completion-ignore-case on"
 
 #vim mode
-set -0 vi
+set -o vi
 
 #git
 alias gua='git remote | xargs -L1 git push --all'
