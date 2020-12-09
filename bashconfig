@@ -27,6 +27,9 @@ fi
 #ignore upper and lowercase when TAB completion
 bind "set completion-ignore-case on"
 
+#vim mode
+set -0 vi
+
 #git
 alias gua='git remote | xargs -L1 git push --all'
 
